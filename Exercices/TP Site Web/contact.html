@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/id/237/800/200" alt="banière">
+        <h1>Un gros Titre qui Claque</h1>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#article3">Blog</li>
+                <li><a href="#.html">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form method="post" action="contact.php">
+            <fieldset>
+                <legend>Veuillez renseigner vos coordonées pour nous contacter.</legend>
+                <div class="form">
+                    <label for="nom">Nom:<span>*</span></label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" maxlength="20" minlength="2" required autofocus>
+                </div>
+                <div class="form">
+                    <label for="mail">E-mail:<span>*</span></label>
+                    <input type="mail" id="name" name="mail" placeholder="Votreadresse@mail.com" required>
+                </div>
+                <div class="form">
+                    <label for="commentaire">Commentaire</label>
+                    <textarea  id="commentaire" name="commentaire" placeholder="Dites-nous ce que vous voulez" cols="70" rows="10"></textarea>
+                </div>
+                <div class="form">
+                    <label for="copy">Copie</label>
+                    <input type="checkbox" id="copy" name="copy" checked>
+                </div>
+                <div class="form">
+                    <input type="submit" id="submit" name="submit" value="Envoyer">
+                    <input type="reset" id="reset" name="reset" value="Réinitialiser">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <nav aria-label="Navigation secondaire">
+            <ul>
+                <li><a href="#.html">Page fictive 1</a></li>
+                <li><a href="#.html">Page fictive 2</a></li>
+                <li><a href="#.html">Page fictive 3</a></li>
+                <li><a href="#.html">Page fictive 4</a></li>
+                <li><a href="#.html">Page fictive 5</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

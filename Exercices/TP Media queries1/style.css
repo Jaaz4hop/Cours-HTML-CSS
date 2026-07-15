@@ -1,0 +1,51 @@
+:root {
+    --couleur-bg-header: blueviolet;
+    --couleur-bg-footer: brown;
+}
+
+header {
+    background-color: var(--couleur-bg-header);
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--couleur-bg-footer);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+article {
+    background-color: beige;
+    border: 1px black solid;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 10px black;
+}
+
+@media (max-width:1060px) {
+    header {
+        background-color: bisque;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        background-color: deeppink;
+    }
+}

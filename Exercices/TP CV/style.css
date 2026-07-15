@@ -1,0 +1,43 @@
+:root {
+    --rouge: #ff0015;
+    --bleu: #0066da;
+    --beige: #e7dfcf;
+    --violet: #841ac2;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    color: var(--violet);
+}
+h2 {
+    order:-1;
+    color: var(--bleu);
+}
+
+#contact {
+    display: flex;
+    border: var(--violet) solid 2px;
+    border-radius: 5%;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 2px;
+}
+
+h3 {
+    color: var(--rouge)
+}
+
+li {
+    list-style: none;
+}
+
+

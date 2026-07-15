@@ -1,0 +1,43 @@
+fieldset {
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    line-height: 200%;
+}
+
+h1 {
+    text-align: center;
+}
+
+label:first-child {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* label:last-child {
+    margin-left: 10px;
+} */
+
+#check {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+input[value] {
+    margin-top: 20px;
+    margin-inline: 10px;
+    padding: 5px;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+}
+
+input[value]:hover {
+    background-color: white;
+    color: black;
+}

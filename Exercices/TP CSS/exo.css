@@ -1,0 +1,35 @@
+h1 {
+    color:blue
+}
+
+h1:hover {
+    color:green
+}
+
+p:active {
+    background-color:gray
+}
+
+a:link {
+    color:orange
+}
+
+a:visited {
+    color:rgb(139, 135, 135)
+}
+
+img:hover {
+    display:none
+}
+
+ul:hover {
+    color:blue
+}
+
+li:nth-child(even) {
+    color:blue
+}
+
+ul:hover li:nth-child(even) {
+    color:black
+}

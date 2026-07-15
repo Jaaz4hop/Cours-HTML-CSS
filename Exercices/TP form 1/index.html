@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="post" action="register.php">
+        <fieldset>
+            <h1>Connexion</h1>
+                <div id="pseudo">
+                <label for="pseudo">Pseudo:</label>
+                <input type="text" name="pseudo" id="Pseudo" placeholder="Mon Pseudo" required autofocus>
+                </div>
+                <div id="pwd">
+                <label for="mdp">Mot de passe:</label>
+                <input type="password" name="mdp" id="mdp" placeholder="Mon mot de passe" required>
+                </div>
+                <input type="checkbox" name="check" id="check" checked>
+                <label for="check">Se souvenir de moi</label>
+                <div id="buttons">
+                    <input type="submit" value="Connexion">
+                    <input type="button" value="Retour">
+                </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

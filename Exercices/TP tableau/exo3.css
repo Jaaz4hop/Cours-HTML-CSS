@@ -1,0 +1,25 @@
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+caption{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+table {
+  table-layout: fixed;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border: thick double blueviolet;
+}
+
+th,
+td {
+  padding: 0.6em;
+  border: 3px solid black;
+}
+
+thead {
+    background-color: aqua;
+}

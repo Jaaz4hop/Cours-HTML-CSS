@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #8771D9;
+}
+
+
+p {
+    background: grey;
+    border: solid green;
+}
+
+#p1 {
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+}
+
+#p2 {
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+}
+
+#p3 {
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+/* 
+body p:first-child {
+    height: 100px;
+}
+
+body p:nth-child(2) {
+    width: 50%;
+}
+
+body p:last-child {
+    height: 200px;
+    width: 200px;
+} */
